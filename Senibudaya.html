@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Personal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Elok</h1>
+    <nav>
+        <div class="menu" onclick="toggleSidebar()">☰</div>
+        <a href="index.html">Home</a>
+        <a href="Senibudaya.html">Seni Budaya</a>
+        <a href="Matematika.html">SPLDV & SPLTV</a>
+    </nav>
+</header>
+
+
+<div class="content">
+    <h2><a href="https://elok-ca.github.io/eeelok/">Senibudaya</a>
+</div>
+
+<footer>
+    <p>Kontak: elokchandra13@gmail.com</p>
+</footer>
+
+<script>
+    function toggleSidebar() {
+        const sidebar = document.getElementById('sidebar');
+        sidebar.classList.toggle('active');
+    }
+</script>
+
+</body>
+</html>
+

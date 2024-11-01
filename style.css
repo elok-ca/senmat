@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poopins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #f7e6f9;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #d998e3; /* Warna latar belakang header */
+    color: white;
+}
+
+.menu {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav.hidden {
+    display: none; /* Menyembunyikan menu */
+}
+
+.content {
+    padding: 20px;
+    background-color: #ffffff; /* Warna latar belakang konten */
+    border: 1px solid #ccc; /* Border untuk konten */
+}
+
+section {
+    margin-bottom: 20px; /* Jarak antar bagian */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1; /* Warna latar belakang footer */
+}
+
+.sidebar {
+    position: fixed;
+    right: 0;
+    top: 60px;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
